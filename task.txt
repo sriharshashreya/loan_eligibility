@@ -1,0 +1,7 @@
+/galary -----> Welcome to galary page
+
+/ -----> Welcome to home page
+
+/cart -----> Welcome to cart page
+
+/contact -----> Welcome to contact page
