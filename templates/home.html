@@ -1,0 +1,65 @@
+<html>
+    <body>
+    
+        
+        <h1>Fill the form to check your loan eligibility</h1>
+
+        <form method="post" action ="/predict">
+
+            <label for="gender">Choose the gender:</label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label for="married">Choose the married status:</label>
+            <select name="married" id="married">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br>
+            <label for="dependents">Choose the number of dependents:</label>
+            <select name="dependents" id="dependents">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br>
+            <label for="education">Choose your education :</label>
+            <select name="education" id="eductaion">
+                <option value="Graduate">Graduate</option>
+                <option value="Not Graduate">Not Graduate</option>
+            </select><br>
+            <label for="selfemployed">Choose if you are selfemployed or not:</label>
+            <select name="selfemployed" id="selfemployed">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br>
+            <label for="applicantincome">Choose the applicant's income:</label>
+            <input type="number" name ="applicantincome" required="required"><br>
+            <label for="coapplicantincome">Choose the co applicant's income:</label>
+            <input type="number" name ="coapplicantincome" required="required"><br>
+            <label for="loanamount">Choose the loan amount you are looking for:</label>
+            <input type="number" name ="loanamount"  required="required"><br>
+            <label for="loanamountterm">Choose the the loan amount term:</label>
+            <select name="loanamountterm" id="loanamountterm">
+                <option value="180">180</option>
+                <option value="360">360</option>
+            </select><br>
+            <label for="credithistory">Choose your credit history:</label>
+            <select name="credithistory" id="credithistory">
+                <option value="0">0</option>
+                <option value="1">1</option>
+            </select><br>
+            <label for="propertyarea">Choose the area in which your property is located:</label>
+            <select name="propertyarea" id="propertyarea">
+                <option value="Rural">Rural</option>
+                <option value="Semiurban">Semiurban</option>
+                <option value="Urban">Urban</option>
+            </select><br>
+            <button>Submit</button>
+        </form>
+
+    </body>
+
+
+
+</html>
